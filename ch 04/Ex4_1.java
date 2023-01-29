@@ -8,7 +8,7 @@ public class Ex4_1{
 		int score = 0;
 		char grade = ' ';
 		
-	System.out.print("Á¡¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä ¡æ");
+	System.out.print("ì ìˆ˜ë¥¼ ì…ë ¥í•˜ì„¸ìš” â†’");
 	Scanner scanner = new Scanner(System.in);
 	score = scanner.nextInt();
 	
@@ -21,7 +21,7 @@ public class Ex4_1{
 		}else {	
 			grade = 'D';
 		}
-			System.out.println("´ç½ÅÀÇ ÇĞÁ¢Àº " + grade + "ÀÔ´Ï´Ù");
+			System.out.println("ë‹¹ì‹ ì˜ í•™ì ‘ì€ " + grade + "ì…ë‹ˆë‹¤");
 		
 	}
 
