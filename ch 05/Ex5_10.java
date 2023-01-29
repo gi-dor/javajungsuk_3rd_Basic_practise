@@ -1,0 +1,14 @@
+package _ch05;
+import java.util.Arrays;
+
+public class Ex5_10 {
+
+	public static void main(String[] args) {
+	
+			System.out.println("매개 변수의 개수 : " + args.length);
+			for (int i = 0; i<args.length; i++) {
+				System.out.println("args["+i+"]= \""+args[i] + "\"");
+			}
+	}
+	
+}
