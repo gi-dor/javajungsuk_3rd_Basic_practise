@@ -3,8 +3,8 @@ public class Ex2_1 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-        //sysout  ctrl space  ÀÚµ¿¿Ï¼º
-		// ctrl alt shift Å°º¸µå ¾Æ·§¹æÇâ
+        //sysout  ctrl space  ìë™ì™„ì„±
+		// ctrl alt shift í‚¤ë³´ë“œ ì•„ë«ë°©í–¥
 		System.out.println("Hello");
 		System.out.print("Hello");
 		System.out.println("Hello");
@@ -15,7 +15,7 @@ public class Ex2_1 {
 		
 		System.out.println(5+3);
 		System.out.println(5-3);
-		System.out.println(5/3); // ¼Ò¼öÁ¡ ¹ö¸²
+		System.out.println(5/3); // ì†Œìˆ˜ì  ë²„ë¦¼
 		System.out.println(5/3.0);
 		System.out.println(5*3);
 	}
