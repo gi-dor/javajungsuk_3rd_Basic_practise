@@ -29,7 +29,11 @@ public class day230131_08 {
 		
 		
 		// 응용문제
+		
 		// double pi = 3.141593
+		
+		
+		
 		// 값으로 3.141  나오게하기
 		System.out.println(pi*1000);
 		System.out.println((int)(pi*1000));
@@ -37,6 +41,12 @@ public class day230131_08 {
 		// 실수에서 정수가 되어서 소수점 아래 숫자들이 다 날아감.
 		System.out.println((int)(pi*1000)/1000.0);
 		
+		
+		
+		// 값으로 3.14159 
+		System.out.println(pi*100000);
+		System.out.println((int)(pi*100000));
+		System.out.println((int)(pi*100000)/100000.0);
 				
 		
 		
