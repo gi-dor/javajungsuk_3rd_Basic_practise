@@ -26,7 +26,16 @@ public class day230131_08 {
 		System.out.println("소수점 다섯째자리 반올림 = "+Math.round(pi*10000)/10000.0);
 			
 		// 1000.0 이 아닌 1000으로 나누기
-		// pi = 3.141593
+		
+		
+		// 응용문제
+		// double pi = 3.141593
+		// 값으로 3.141  나오게하기
+		System.out.println(pi*1000);
+		System.out.println((int)(pi*1000));
+		// 형변환 int를 사용해서 값을 손실되게함
+		// 실수에서 정수가 되어서 소수점 아래 숫자들이 다 날아감.
+		System.out.println((int)(pi*1000)/1000.0);
 		
 				
 		
