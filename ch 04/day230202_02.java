@@ -7,7 +7,9 @@ public class day230202_02 {
 		
 		//if else if
 		
-		
+		// 조건식에 true false만 가능함
+		// 조건이 많아 진다면  else if 계속 늘어남
+	
 		// if  (조건식1){
 		 		// 조건식1의 결과가 true일시 수행될 문장
 		//	} else if(조건식2){
