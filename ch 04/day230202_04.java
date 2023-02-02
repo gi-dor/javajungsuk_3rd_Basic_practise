@@ -6,7 +6,8 @@ public class day230202_04 {
 		// TODO Auto-generated method stub
 		// switch 문 
 		// scanner로 입력받은 점수를 switch문으로 학점 구분하기
-		
+		// switch 문의 조건식은 정수 , 문자열 이 들어감
+		// switch 문 조건식에 변수 실수 사용 불가
 		int score = 0;
 
 		Scanner scanner  = new Scanner (System.in);
