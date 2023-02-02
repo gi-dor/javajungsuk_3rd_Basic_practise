@@ -15,7 +15,7 @@ public class day230202_03 {
 			score = scanner.nextInt();
 			// 화면에서 입력한 점수를 score에 저장
 			
-			System.out.println("당신의 점수는 "+score+"점 입니다" );
+			System.out.println("당신의 점수는 "+score+" 점 입니다" );
 			System.out.printf("당신의 점수는 %d점 입니다%n",score);
 			
 			if (score >= 90) { 
