@@ -39,8 +39,8 @@ public class day230202_08 {
 			System.out.println(x);
 		 }
 		
-		 System.out.println();
-		 System.out.println();
+		  System.out.println();
+		 
 		 
 		 // 0.0 <= Math.random() <1.0
 		 // 원하는 값의 범위가  1 ~ 45  45개 
