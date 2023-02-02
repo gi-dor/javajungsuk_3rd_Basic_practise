@@ -22,7 +22,7 @@ public class day230202_08 {
 		// (int)0.0 <= (int)(Math.random() *5 ) < (int)*5
 		// 0 <= (int)(Math.random()*5)<5
 		// 1 ~ 5 사이의 값을 구하려고 하기때문에 
-		// 1 <= x && x <=5
+		// 1 <= x && x < 6
 		// 0 +1 <= (int)(Math.random()*5) +1 < 5 +1
 		// 1 <= (int)(Math.random()*5)+1 < 6
 		// 1 은 포함되며 6은 포함되지 않은 정수가 랜덤으로 나옴
