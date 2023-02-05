@@ -4,49 +4,51 @@ public class day230205_08 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		 // ¹è¿­
-		 // °°Àº Å¸ÀÔÀÇ ¿©·¯ º¯¼ö¸¦ ÇÏ³ª·Î ¹­À½À¸·Î ´Ù·ç´Â°Í
+		 // ë°°ì—´
+		 // ê°™ì€ íƒ€ìž…ì˜ ì—¬ëŸ¬ ë³€ìˆ˜ë¥¼ í•˜ë‚˜ë¡œ ë¬¶ìŒìœ¼ë¡œ ë‹¤ë£¨ëŠ”ê²ƒ
 		
 
 		int [] score = new int [5];
-		// int °ª 5°³¸¦ ÀúÀåÇÒ¼ö ÀÖ´Â ¹è¿­
+		// int ê°’ 5ê°œë¥¼ ì €ìž¥í• ìˆ˜ ìžˆëŠ” ë°°ì—´
 		
 		
 		
-		// ¹è¿­ÀÇ ¼±¾ð°ú »ý¼º
-		// ¹è¿­ÀÇ ¼±¾ð - ¹è¿­À» ´Ù·ç±â À§ÇÑ 'ÂüÁ¶º¯¼ö' ÀÇ ¼±¾ð
+		// ë°°ì—´ì˜ ì„ ì–¸ê³¼ ìƒì„±
+		// ë°°ì—´ì˜ ì„ ì–¸ - ë°°ì—´ì„ ë‹¤ë£¨ê¸° ìœ„í•œ 'ì°¸ì¡°ë³€ìˆ˜' ì˜ ì„ ì–¸
 		
-		// 1. Å¸ÀÔ [ ] º¯¼öÀÌ¸§;
+		// 1. íƒ€ìž… [ ] ë³€ìˆ˜ì´ë¦„;
 		int[] score1;
 		String [] name;
 		
-		// 2. Å¸ÀÔ º¯¼öÀÌ¸§ [ ];
+		// 2. íƒ€ìž… ë³€ìˆ˜ì´ë¦„ [ ];
 		int score2 [];
 		String name1 [];
 	
-		int[] score3; // intÅ¸ÀÔÀÇ ¹è¿©¸¦ ´Ù·ç±âÀ§ÇÑ ÂüÁ¶º¯¼ö score3¼±¾ð
-		score3 = new int[5];// int Å¸ÀÔÀÇ °ª 5°³¸¦ ÀúÀå ÇÒ¼öÀÖ´Â ¹è¿­»ý¼º
-	// score[0] , score[1] ,score[2], score[3] ,score[4]
-		// indexÀÇ ¹üÀ§ 0 ~ 4  , 5°³
+		int[] score3; // intíƒ€ìž…ì˜ ë°°ì—¬ë¥¼ ë‹¤ë£¨ê¸°ìœ„í•œ ì°¸ì¡°ë³€ìˆ˜ score3ì„ ì–¸
+		score3 = new int[5];// int íƒ€ìž…ì˜ ê°’ 5ê°œë¥¼ ì €ìž¥ í• ìˆ˜ìžˆëŠ” ë°°ì—´ìƒì„±
+		// score[0] , score[1] ,score[2], score[3] ,score[4]
+		// indexì˜ ë²”ìœ„ 0 ~ 4  , 5ê°œ
 		
-		// ¹è¿­ÀÇ ÀÎµ¦½º
-		// ¹è¿­ÀÇ ÀÎµ¦½º - °¢ ¿ä¼Ò¿¡(ÀúÀå°ø°£) ÀÚµ¿À¸·Î ºÙ´Â ¹øÈ£
-		// " indexÀÇ ¹üÀ§´Â 0 ºÎÅÍ '¹è¿­±æÀÌ-1'±îÁö
+		
+		
+		// ë°°ì—´ì˜ ì¸ë±ìŠ¤
+		// ë°°ì—´ì˜ ì¸ë±ìŠ¤ - ê° ìš”ì†Œì—(ì €ìž¥ê³µê°„) ìžë™ìœ¼ë¡œ ë¶™ëŠ” ë²ˆí˜¸
+		// " indexì˜ ë²”ìœ„ëŠ” 0 ë¶€í„° 'ë°°ì—´ê¸¸ì´-1'ê¹Œì§€
 		// int [] score = new int[5];
-		//  ±æÀÌ°¡ 5ÀÎ int¹è¿­
+		//  ê¸¸ì´ê°€ 5ì¸ intë°°ì—´
 		// 0 ~ 5-1 
-		// ÀúÀå°ø°£ ÇÏ³ª¸¦ ¹è¿­ÀÇ ¿ä¼Ò¶ó°í ÇÑ´Ù
+		// ì €ìž¥ê³µê°„ í•˜ë‚˜ë¥¼ ë°°ì—´ì˜ ìš”ì†Œë¼ê³  í•œë‹¤
 		
 		// score [3] = 100;
 		// score[0] ,score[1],score[2],score[3],score[4]
-		// ¹è¿­ÀÇ 4¹øÂ° ¿ä¼Ò¿¡ 100À» ÀúÀåÇÑ´Ù
+		// ë°°ì—´ì˜ 4ë²ˆì§¸ ìš”ì†Œì— 100ì„ ì €ìž¥í•œë‹¤
 		
 		// int value = score[3];
-		// ¹è¿­ scoreÀÇ 4¹øÂ° ¿ä¼ÒÀÇ °ªÀ» ÀÐ¾î¼­ 'value'¿¡ ÀúÀå
+		// ë°°ì—´ scoreì˜ 4ë²ˆì§¸ ìš”ì†Œì˜ ê°’ì„ ì½ì–´ì„œ 'value'ì— ì €ìž¥
 		// int value = 100
 		
-//		int[] score ;		// 1. ¹è¿­ score ¼±¾ð (ÂüÁ¶º¯¼ö)
-//		score = new int[5]; // 2. ¹è¿­ÀÇ »ý¼º (intÀúÀå°ø°£x5)
+//		int[] score ;		// 1. ë°°ì—´ score ì„ ì–¸ (ì°¸ì¡°ë³€ìˆ˜)
+//		score = new int[5]; // 2. ë°°ì—´ì˜ ìƒì„± (intì €ìž¥ê³µê°„x5)
 		
 		int[] score4 = new int[5];
 		score4 [3] =100;
