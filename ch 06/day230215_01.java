@@ -6,18 +6,22 @@ class Excercise{
 	// 메서드 문제
 	
 	// 두점 (x,y) 와 (x1,y1)의 간의 거리를 구하시오 
-	
+	// 제곱근 계산은 Math.sqrt(double a)를 사용하시오
 	
 	static double getDistance (int x , int y , int x1, int y1) {
 				// double result  =  (x-x1)^2 + (y-y1)^2;
 				// double result =  (x-x1)*(x-x1) + (y-y1)*(y-y1);
 				// return result =  ??
-			    // Math.pow(x-x1,2); // 제곱을 해주는 메서드, (x-x1)^2 , Math.pow(3,5) 3의 5제곱 
-				double result = Math.sqrt(Math.pow(x-x1,2)+Math.pow(y-y1, 2));
+		
+			    // Math.pow(x-x1,2); 
+			// Mth.pow ( ) -> 제곱을 해주는 메서드
+			//  (x-x1)^5 
+			// Math.pow(3,5) 3의 5제곱 
 				
+				double result = Math.sqrt(Math.pow(x-x1,2)+Math.pow(y-y1, 2));
 				// Math.sqrt((x-x1)*(x-x1) + (y-y1)*(y-y1));
 				
-				// 제곱근 계산은 Math.sqrt(double a)를 사용하시오
+				
 		        return result ;
 		        
 		      
