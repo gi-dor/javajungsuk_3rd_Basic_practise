@@ -24,8 +24,6 @@ public class day230222_02 {
 
 }
 
-![12345](https://user-images.githubusercontent.com/86302876/220574039-c341f562-3426-4f9c-99db-12feef7898c4.jpg)
-
 
 
 
@@ -50,5 +48,4 @@ class Car {
 		}
 	}
 
-![12345](https://user-images.githubusercontent.com/86302876/220574039-c341f562-3426-4f9c-99db-12feef7898c4.jpg)
 
