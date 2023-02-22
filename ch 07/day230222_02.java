@@ -24,7 +24,7 @@ public class day230222_02 {
 
 }
 
-![KakaoTalk_20230222_175710296](https://user-images.githubusercontent.com/86302876/220572407-511e65ba-ce43-4007-8ad3-501143a5726c.jpg)
+![12345](https://user-images.githubusercontent.com/86302876/220574039-c341f562-3426-4f9c-99db-12feef7898c4.jpg)
 
 
 
@@ -49,4 +49,6 @@ class Car {
 			System.out.println("물 뿌립니다~");
 		}
 	}
+
+![12345](https://user-images.githubusercontent.com/86302876/220574039-c341f562-3426-4f9c-99db-12feef7898c4.jpg)
 
