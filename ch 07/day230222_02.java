@@ -24,7 +24,10 @@ public class day230222_02 {
 
 }
 
-![KakaoTalk_20230222_175710296](https://user-images.githubusercontent.com/86302876/220571831-a3ddf4ba-8ce6-400f-9edd-f9a038c88148.jpg)
+![KakaoTalk_20230222_175710296](https://user-images.githubusercontent.com/86302876/220572407-511e65ba-ce43-4007-8ad3-501143a5726c.jpg)
+
+
+
 
 
 class Car {
