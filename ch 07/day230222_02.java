@@ -25,7 +25,7 @@ public class day230222_02 {
 	}
 
 }
-<img src= "https://user-images.githubusercontent.com/86302876/220793604-437f5d19-a801-4a5a-840c-e3cb8e8b06e4.jpg"  width ="50%" height="50%">
+
 
 
 
