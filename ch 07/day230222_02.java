@@ -21,10 +21,11 @@ public class day230222_02 {
 		// 복습할때 확인하고 이해한 부분 적어두기 메모...
 		fe2.water();
 		
+			
 	}
 
 }
-
+<img src= "https://user-images.githubusercontent.com/86302876/220793604-437f5d19-a801-4a5a-840c-e3cb8e8b06e4.jpg"  width ="50%" height="50%">
 
 
 
