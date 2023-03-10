@@ -35,6 +35,20 @@ public class day230310_01 {
 				}System.out.println();
 				
 				System.out.println(Arrays.toString(arr)); // 최종출력
+
+				
+
+				// Arrays로 배열 다루기
+		
+				// 배열의 정렬 - sort()
+		
+					int[] arr = {7,4,1,6,4,2,2,3,5,3,1};
+		
+					Arrays.sort(arr);
+					System.out.println(Arrays.toString(arr));
+
+
+
 	 	}
 
 }
