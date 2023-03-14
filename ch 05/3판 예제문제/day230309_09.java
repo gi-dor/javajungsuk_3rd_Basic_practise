@@ -20,6 +20,6 @@ public class day230309_09 {
 		for ( int i = 0; i < numArr1.length; i++) {
 			System.out.println(i+"의 갯수 : "+counter[i]);
 		}
-	}
+	 }
 
 }
