@@ -40,7 +40,7 @@ public class day230310_03 {
 			System.out.println("==================================");
 	 		System.out.printf("총점 : %3d %4d %5d",kor, eng, math);
 			
-					
+				 	
 	
 	}
 
